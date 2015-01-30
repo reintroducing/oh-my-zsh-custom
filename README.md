@@ -1,5 +1,6 @@
 oh-my-zsh-custom
 ================
+Original by [Ali Karbassi](https://github.com/karbassi/oh-my-zsh-custom)
 
 # Setup
 1. Open `System Preferences > Users & Groups` and unlock the pane for editing using the gear on the bottom left
