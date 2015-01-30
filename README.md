@@ -2,6 +2,8 @@ oh-my-zsh-custom
 ================
 Original by [Ali Karbassi](https://github.com/karbassi/oh-my-zsh-custom)
 
+![My setup](https://cloud.githubusercontent.com/assets/259901/5979130/95679dbc-a86a-11e4-903d-e88f1a21f459.png)
+
 # Setup
 1. Open `System Preferences > Users & Groups` and unlock the pane for editing using the gear on the bottom left
 1. Right click on your user and select `Advanced Options`
