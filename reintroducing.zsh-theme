@@ -36,11 +36,11 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[blue]%} ‽%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%} ✔%{$reset_color%}"
 
 ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[green]%} ✚ %{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[blue]%} ± %{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[cyan]%} ± %{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%} ✖ %{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[magenta]%} ❯ %{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[yellow]%} ⥤ %{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[cyan]%} ‽ %{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[blue]%} ‽ %{$reset_color%}"
 
 ZSH_THEME_SVN_PROMPT_PREFIX=" "
 ZSH_THEME_REPO_NAME_COLOR="%{$fg_bold[yellow]%}"
