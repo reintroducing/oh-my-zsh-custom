@@ -25,4 +25,5 @@ Original by [Ali Karbassi](https://github.com/karbassi/oh-my-zsh-custom)
 
 ## Iconsolata Font
 1. [Download Iconsolata](http://www.google.com/fonts#UsePlace:use/Collection:Inconsolata)
+1. Install the font however/wherever you install fonts on your system
 1. In Terminal go to `Preferences > Settings` and under `Font` select `Iconsolata 15pt.`
