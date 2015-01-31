@@ -22,4 +22,7 @@ Original by [Ali Karbassi](https://github.com/karbassi/oh-my-zsh-custom)
 1. [Download Solarized](http://ethanschoonover.com/solarized)
 1. Unzip and double-click `solarized/osx-terminal.app-colors-solarized/xterm-256color/Solarized Dark xterm-256color.terminal`
 1. In Terminal go to `Preferences > Settings` and under `Profiles` select `Solarized Dark`
-1. Set `Font` to `Menlo Regular 11pt.` if not already set
+
+## Iconsolata Font
+1. [Download Iconsolata](http://www.google.com/fonts#UsePlace:use/Collection:Inconsolata)
+1. In Terminal go to `Preferences > Settings` and under `Font` select `Iconsolata 15pt.`
