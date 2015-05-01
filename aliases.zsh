@@ -28,4 +28,14 @@ alias gbp="git push --set-upstream origin" # push the branch up to origin (gbp [
 # pull, add everything, commit with the specified message and then push it all to remote
 function gacp { git pull && git add -A && git commit -m "$*" && git push }
 
+function gac { git add -A && git commit -m "$*" }
+
 function gbu { git checkout -b "$*" && git push --set-upstream origin "$*" }
+
+# SpotHero aliases
+alias cdsh="cd /Users/mprzybylski/Work/SpotHero/SpotHero-Django"
+alias cdshm="cd /Users/mprzybylski/Work/SpotHero/SpotHero-Django/spothero/static/main"
+alias shfe="sh apps.sh run spothero"
+alias shfeq="sh apps.sh run spothero quiet"
+alias wosh="workon spothero"
+alias pkpg="pkill python && pkill gulp"
