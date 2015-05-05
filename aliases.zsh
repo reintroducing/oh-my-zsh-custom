@@ -12,7 +12,8 @@ function server() {
 }
 
 # Git aliases
-alias gm="git checkout master"
+alias gcom="git checkout master"
+alias gcod="git checkout develop"
 alias gco="git checkout"
 alias gs="git status"
 alias ga="git add -A"
@@ -24,6 +25,8 @@ alias gc="git commit -m" # make a commit with a message (gc [message])
 alias gb="git checkout -b" # create branch and then give it a name locally (gb [branch-name])
 alias gbd="git branch -d" # delete a branch locally (gbd [branch-name])
 alias gbp="git push --set-upstream origin" # push the branch up to origin (gbp [branch-name])
+alias gt="git tag -a" # create a tag (gt [tag-number])
+alias gm="git merge --no-ff" # merge named branch into current branch (gm [branch-name-to-merge-in]), --no-ff flag causes merge to create new commit object without fast-forward which preserves info about branch
 
 # pull, add everything, commit with the specified message and then push it all to remote
 function gacp { git pull && git add -A && git commit -m "$*" && git push }
