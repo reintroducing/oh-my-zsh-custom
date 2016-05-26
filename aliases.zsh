@@ -19,7 +19,7 @@ alias gs="git status"
 alias ga="git add -A"
 alias gpl="git pull"
 alias gps="git push"
-alias gcl="git checkout ."
+alias gclr="git checkout ."
 alias grm="git fetch origin && git reset --hard origin/master"
 alias gc="git commit -m" # make a commit with a message (gc [message])
 alias gb="git checkout -b" # create branch and then give it a name locally (gb [branch-name])
@@ -35,10 +35,14 @@ function gac { git add -A && git commit -m "$*" }
 
 function gbu { git checkout -b "$*" && git push --set-upstream origin "$*" }
 
+# Python aliases
+alias prs="python manage.py runserver"
+alias pir="pip install -r requirements.txt"
+alias pm="python manage.py migrate"
+
 # SpotHero aliases
 alias cdsh="cd /Users/mprzybylski/Work/SpotHero/SpotHero-Django"
-alias cdshm="cd /Users/mprzybylski/Work/SpotHero/SpotHero-Django/spothero/static/main"
-alias shfe="sh apps.sh run spothero"
-alias shfeq="sh apps.sh run spothero quiet"
+alias shfe="sh apps.sh run"
+alias shcp="npm run dev:control-panel"
 alias wosh="workon spothero"
 alias pkpg="pkill python && pkill gulp"
