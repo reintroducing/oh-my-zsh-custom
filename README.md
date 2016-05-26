@@ -18,12 +18,9 @@ Original by [Ali Karbassi](https://github.com/karbassi/oh-my-zsh-custom)
 
 # Other Useful Items
 
-## Solarized Theme
-1. [Download Solarized](http://ethanschoonover.com/solarized)
-1. Unzip and double-click `solarized/osx-terminal.app-colors-solarized/xterm-256color/Solarized Dark xterm-256color.terminal`
-1. In Terminal go to `Preferences > Settings` and under `Profiles` select `Solarized Dark`
-
-## Iconsolata Font
-1. [Download Iconsolata](http://www.google.com/fonts#UsePlace:use/Collection:Inconsolata)
-1. Install the font however/wherever you install fonts on your system
-1. In Terminal go to `Preferences > Settings` and under `Font` select `Iconsolata 15pt.`
+## Cobalt2-iterm Theme
+1. [Download Cobalt2-iterm](https://github.com/wesbos/Cobalt2-iterm)
+1. Follow installation instructions at repo
+1. In iTerm go to `Preferences > Profiles` and under `Colors` select `Load Presets > Import`
+1. Locate matt.itermcolors from this repo and import it
+1. From the dropdown again select matt
