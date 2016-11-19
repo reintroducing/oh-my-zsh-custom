@@ -15,6 +15,7 @@ Original by [Ali Karbassi](https://github.com/karbassi/oh-my-zsh-custom)
 1. `git clone git@github.com:reintroducing/oh-my-zsh-custom.git ~/.oh-my-zsh/custom`
 1. Edit your `~/.zshrc` to add `ZSH_THEME="reintroducing"`
 1. Edit your `~/.zshrc` "plugins" to include the following: `plugins=(git git-extras svn history history-substring-search ruby rails3 cap rvm osx z sublime brew screen)`
+1. If using `nvm` and want ESLint support in SublimeText, create a `~/.zprofile` file and put nvm init there instead of in `~/.zshrc`.
 
 # Other Useful Items
 
