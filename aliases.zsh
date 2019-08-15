@@ -13,6 +13,7 @@ function server() {
 
 # Git aliases
 alias gcom="git checkout master"
+alias gcoi="git checkout integration"
 alias gcod="git checkout develop"
 alias gco="git checkout"
 alias gs="git status"
@@ -38,15 +39,12 @@ function gbu { git checkout -b "$*" && git push --set-upstream origin "$*" }
 # Python aliases
 alias prs="python manage.py runserver"
 alias pir="pip install -r requirements.txt"
-alias pirn="pip install -r requirements.txt --extra-index-url http://nexus.kickthe.tires:8081/repository/spothero-proxy-pypi/simple --trusted-host nexus.kickthe.tires"
+alias pirn="pip install -r requirements.txt -i http://nexus.kickthe.tires:8081/repository/spothero-pypi/simple/ --trusted-host nexus.kickthe.tires"
 alias pm="python manage.py migrate"
 
 # SpotHero aliases
 alias cdsh="cd /Users/mprzybylski/Work/SpotHero/"
-alias shfe="sh apps.sh run"
-alias shcp="npm run dev:control-panel"
-alias wosh="workon spothero"
-alias pkpg="pkill python && pkill gulp"
+alias cdlv="cd /Users/mprzybylski/Work/Livongo/"
 
 # General
 alias nsu="npm-user-switch"
