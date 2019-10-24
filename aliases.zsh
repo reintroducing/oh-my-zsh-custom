@@ -44,6 +44,11 @@ alias pm="python manage.py migrate"
 
 # SpotHero aliases
 alias cdsh="cd /Users/mprzybylski/Work/SpotHero/"
+alias sbe="make start-backend"
+alias cbe="docker-compose ps"
+alias kbe="make compose-down"
+
+#Livongo aliases
 alias cdlv="cd /Users/mprzybylski/Work/Livongo/"
 
 # General
