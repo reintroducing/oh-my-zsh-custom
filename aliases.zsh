@@ -47,6 +47,7 @@ alias cdsh="cd /Users/mprzybylski/Work/SpotHero/"
 alias sbe="make start-backend"
 alias cbe="docker-compose ps"
 alias kbe="make compose-down"
+alias ube="make compose-update"
 alias ngsh="./ngrok http 9000 -subdomain=spothero"
 
 #Livongo aliases
