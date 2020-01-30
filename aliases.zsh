@@ -44,7 +44,7 @@ alias pm="python manage.py migrate"
 
 # SpotHero aliases
 alias cdsh="cd /Users/mprzybylski/Work/SpotHero/"
-alias sbe="make start-backend"
+alias sbe="make start-for-consumer-web"
 alias cbe="docker-compose ps"
 alias kbe="make compose-down"
 alias ube="make compose-update"
