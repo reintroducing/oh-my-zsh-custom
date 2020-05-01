@@ -51,7 +51,7 @@ alias ube="make compose-update"
 alias ngsh="./ngrok http 9000 -subdomain=spothero"
 
 #Livongo aliases
-alias cdlv="cd /Users/mprzybylski/Work/Livongo/"
+alias cdlv="cd /Users/matt.przybylski/Work/"
 
 # General
 alias nsu="npm-user-switch"
