@@ -36,20 +36,6 @@ function gac { git add -A && git commit -m "$*" }
 
 function gbu { git checkout -b "$*" && git push --set-upstream origin "$*" }
 
-# Python aliases
-alias prs="python manage.py runserver"
-alias pir="pip install -r requirements.txt"
-alias pirn="pip install -r requirements.txt -i http://nexus.kickthe.tires:8081/repository/spothero-pypi/simple/ --trusted-host nexus.kickthe.tires"
-alias pm="python manage.py migrate"
-
-# SpotHero aliases
-alias cdsh="cd /Users/mprzybylski/Work/SpotHero/"
-alias sbe="make start-for-consumer-web"
-alias cbe="docker-compose ps"
-alias kbe="make compose-down"
-alias ube="make compose-update"
-alias ngsh="./ngrok http 9000 -subdomain=spothero"
-
 #Livongo aliases
 alias cdlv="cd /Users/matt.przybylski/Work/"
 
