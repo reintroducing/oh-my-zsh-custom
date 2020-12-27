@@ -37,7 +37,7 @@ function gac { git add -A && git commit -m "$*" }
 function gbu { git checkout -b "$*" && git push --set-upstream origin "$*" }
 
 #Livongo aliases
-alias cdlv="cd /Users/matt.przybylski/Work/"
+alias cdlv="cd /Users/mprzybylski/Work/"
 
 # General
 alias nsu="npm-user-switch"
